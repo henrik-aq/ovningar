@@ -9,10 +9,10 @@ Math.Random . Se till att det bara blir heltal genom att använda parseInt.
 
 function random(num){
  	let arr = [];
-	for (var i = 0; i >= 0; i++) {
-		arr[i] = Math.floor(Math.Random() * 10 + 1);
+	for (var i = 0; i < num; i++) {
+		arr[i] = Math.floor(Math.random() * 10 + 1);
 	}
-	console.log(arr[num]);
+	return arr
 }
 
-console.log(random(5));
+console.log(random(45));
