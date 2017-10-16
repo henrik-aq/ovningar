@@ -7,7 +7,9 @@ blir 1.*/
 var y = 100;
 
 for (var y; y >= 0; y--) {
-	if (y % 2 != 0){
-		console.log(y);
+	if (y % 2 !== 0){
+		console.log('Ojämna: ' + y);
 	}
+	else
+		console.log('Jämna: ' + y)
 }

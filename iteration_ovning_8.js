@@ -5,13 +5,14 @@ samma tärning två gånger). Efter varje slag ska vardera tärnings värde skri
 konsolen. Datorn ska slå tärningarna om och om igen tills dess att den får par, alltså
 samma tal på båda tärningarna. (Använd random för att slumpa tal). */
 
-var diceA = Math.floor((Math.random() * 6) + 1);
-var diceB = Math.floor((Math.random() * 6) + 1);
+var diceA;
+var diceB;
 
-while (diceA != diceB) {
+do  {
 diceA = Math.floor((Math.random() * 6) + 1);
 diceB = Math.floor((Math.random() * 6) + 1);
 console.log(diceA, diceB);
 }
+while (diceA != diceB)
 
 console.log("Det är jämt!")
