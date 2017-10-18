@@ -16,8 +16,8 @@ let henrik = new person("Henrik Andersson", 32);
 let lina = new person('Lina Irstad', 31);
 
 console.log(henrik.untilRetire());
-console.log(lina.age);*/
-
+console.log(lina.age);
+*/
 
 /*function cat (name, color, age, cutenessLevel){
 	this.name = name;

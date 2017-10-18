@@ -1,6 +1,5 @@
 
-function ValueClass (value)
-{
+function ValueClass (value){
 
  this.val = value + 2;
 
@@ -8,9 +7,9 @@ function ValueClass (value)
  {
  return this.val;
  }
- this.AddValue = function(addValue)
- {
- val += this.addValue;
+ this.AddValue = function(addValue){
+
+ this.val += addValue;
  }
 }
 
