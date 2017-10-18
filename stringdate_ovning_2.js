@@ -5,13 +5,13 @@ hur många dagar som skiljer. */
 
 
 
-let date1 = new Date(67, 4, 4);
-let date2 = new Date(78, 6, 8);
+let date1 = new Date(2005, 6, 9);
+let date2 = new Date();
 
 let diffDay = date2.getDate() - date1.getDate();
 let diffMonth = date2.getMonth() - date1.getMonth();
 let diffYear = date2.getFullYear() - date1.getFullYear();
-
+let days.getDate() = date2
 
 console.log('Det skiljer ' + diffYear + ' år' + ' och ' + diffMonth + ' månader, samt ' + diffDay + ' dagar.');
 

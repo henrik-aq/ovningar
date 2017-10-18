@@ -1,0 +1,19 @@
+Kund ()
+Namn
+Adress
+Postort
+Postnummer
+Telefon
+Mail
+	Ny Kund()
+	Ändra uppgifter()
+
+Bil()
+Regnummer
+Färg
+Modell
+År
+	Ny Bil()
+
+Boka service()
+	Datum

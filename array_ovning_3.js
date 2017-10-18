@@ -12,4 +12,7 @@ for (let num = 0; num < numArr.length; num++){
 
 	if (newNum === 0)
 		console.log(numArr[num]);
+	else
+		numArr[num] = 0;
+		console.log(numArr[num]);
 }
