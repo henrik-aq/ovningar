@@ -10,9 +10,15 @@ for (let num = 0; num < numArr.length; num++){
 	
 	newNum = numArr[num] % 2;
 
-	if (newNum === 0)
-		console.log(numArr[num]);
-	else
+	if (newNum !== 0){
+		
 		numArr[num] = 0;
-		console.log(numArr[num]);
+	}
+
+
+	/*else
+		numArr[num] = 0;
+		console.log(numArr[num]);*/
 }
+
+console.log(numArr);

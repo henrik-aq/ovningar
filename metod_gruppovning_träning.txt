@@ -1,0 +1,33 @@
+Medlem()
+Namn
+Adress
+Telefon
+Mail
+	Ny medlem()
+	Ändra()
+	Ta bort()
+
+Medlemsskap()
+Vardag
+Student
+Ordinarie
+Pris
+
+Instruktör()
+Förnamn
+Efternamn
+
+Träningspass()
+Spinning
+BodyPump
+Pilates
+Core
+(Starttid)
+(Sluttid)
+(Antal platser)
+	Lägg till nytt pass()
+	Ändra pass()
+	Lägg till starttid()
+	Lägg till sluttid()
+	Lägg till antal platser()
+	

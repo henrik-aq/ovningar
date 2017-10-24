@@ -6,7 +6,8 @@
 */ 
 
 var numArr = [5, 7, 8, 34, 1, 45];
-var swapped;
+
+let swapped;
 
     do {
         swapped = false;
@@ -21,3 +22,28 @@ var swapped;
     } while (swapped);
 
 console.log(numArr[0]);
+
+ var value1 = 24;
+ var value2 = 19;
+ var resultat = 10;
+ var isOK = false;
+ if (value1 >= 15 && value1 <= 25 && isOK != false)
+ {
+ if (value2 >= 25 || value2 <= 10)
+ {
+ resultat = resultat + 1;
+ }
+ }
+ else if (value1 >= 15 && value1 <= 25 && isOK != true)
+ {
+ if ((value2 >= 5 && value2 <= 10) ||
+ (value2 >= 15 && value2 <= 20))
+ {
+ resultat = resultat + 2;
+ }
+ }
+ else
+ {
+ resultat = resultat + 3;
+ }
+ console.log(resultat);
